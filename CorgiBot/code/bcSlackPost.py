@@ -35,11 +35,6 @@ randCorgi = random.randint(0, len(filenames) -1)
 jpgPath = str(filenames[randCorgi])
 #jpgfile = Image.open(jpgPath)
 
-#Current test tokens set up to access internal Amgen Slack channel
-SLACK_API_ROOT = 'https://slack.com/api/'
-API_TOKEN = 'xoxp-245459112464-246996559622-353351335618-6605ec74db393a9e45fd6fb8490f6af1'
-#corgi_token = 'xoxb-352870299281-2qy5AHevl9F6VyFyg3DoU7b5'
-corgi_token = "xoxb-355147478502-oaGceWv4DWAXX8UZiCJ7MjbS"
 #setup for Python 3+
 try:	
 	import urllib.request as url_parse
